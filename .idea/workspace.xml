@@ -5,29 +5,113 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd47a696-00b4-455b-afa0-5c468cca4efa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/PaymentSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/PaymentSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/initDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/populateDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/populateDB.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2MMeXwSzXeyFQcLQPK7zVtN5SjP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;740b79b425e583be7b3dcfa308672e4d&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;,
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\po1ak\IdeaProjects\PaymentSystem\src\main\resources\database" />
+      <recent name="C:\Users\po1ak\IdeaProjects\PaymentSystem\src\main\resources\ghhhh" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Unnamed">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="PaymentSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.paymentsystem.PaymentSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,9 +120,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677581923069</updated>
-      <workItem from="1677581924465" duration="2000" />
+      <workItem from="1677581924465" duration="21098000" />
+      <workItem from="1677660372469" duration="4909000" />
+      <workItem from="1677680288175" duration="13080000" />
+      <workItem from="1677707006241" duration="3044000" />
+      <workItem from="1677750470966" duration="4079000" />
+      <workItem from="1677757894132" duration="646000" />
+      <workItem from="1677759124026" duration="2326000" />
+      <workItem from="1677778766838" duration="2559000" />
+      <workItem from="1677785055007" duration="7115000" />
+      <workItem from="1677838226275" duration="3442000" />
+      <workItem from="1678096738419" duration="551000" />
+      <workItem from="1678097345558" duration="1904000" />
+      <workItem from="1678116926426" duration="3675000" />
+      <workItem from="1678128354194" duration="9007000" />
+      <workItem from="1678190459952" duration="19153000" />
+      <workItem from="1678269460464" duration="1065000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

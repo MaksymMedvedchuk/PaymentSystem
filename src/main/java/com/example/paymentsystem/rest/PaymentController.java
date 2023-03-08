@@ -1,7 +1,6 @@
 package com.example.paymentsystem.rest;
 
 
-import com.example.paymentsystem.model.Account;
 import com.example.paymentsystem.model.Payment;
 import com.example.paymentsystem.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/payments/")
-public class PaymentRestController {
+public class PaymentController {
 
     @Autowired
     private PaymentService paymentService;
@@ -27,17 +26,15 @@ public class PaymentRestController {
     }
 
     @RequestMapping(value = "", method = RequestMethod.POST)
-    public ResponseEntity<Account> savePayment(@RequestBody Payment payment) {
+    public ResponseEntity<Payment> savePayment(@RequestBody Payment payment) {
         paymentService.save(payment);
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
     @RequestMapping(value = "{paymentId}", method = RequestMethod.DELETE)
-    public ResponseEntity<?> deletePayment(@PathVariable(name = "paymentId") Long accountId) {
-        boolean deleted = paymentService.delete(accountId);
-        return deleted
-                ? new ResponseEntity<>(HttpStatus.OK)
-                : new ResponseEntity<>(HttpStatus.NOT_MODIFIED);
+    public ResponseEntity<Payment> deletePayment(@PathVariable(name = "paymentId") Long paymentId) {
+        paymentService.delete(paymentId);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @RequestMapping(value = "", method = RequestMethod.GET)

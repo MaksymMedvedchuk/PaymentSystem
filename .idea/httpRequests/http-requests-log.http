@@ -1,0 +1,8 @@
+GET http://localhost:9966/clients/{{id}}
+
+###
+
+GET http://localhost:9966/clients/{{id}}
+
+###
+
