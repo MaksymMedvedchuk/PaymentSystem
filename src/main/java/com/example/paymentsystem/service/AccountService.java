@@ -8,12 +8,9 @@ public interface AccountService {
 
     Account getById(Long id);
 
-    void save(Account account);
+    Account save(Account account);
 
     void delete(Long id);
 
     List<Account> getAll();
 }
-//CGLib
-//Dymanic Proxy
-//Proxy pattern

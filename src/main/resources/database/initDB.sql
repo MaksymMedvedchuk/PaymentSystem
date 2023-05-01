@@ -6,6 +6,8 @@ CREATE TABLE IF NOT EXISTS clients
     age        INT         NOT NULL
 );
 
+CREATE UNIQUE INDEX fl_uniqueness ON clients(first_name, last_name);
+
 CREATE TABLE IF NOT EXISTS accounts
 (
     id           SERIAL PRIMARY KEY,

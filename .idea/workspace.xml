@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd47a696-00b4-455b-afa0-5c468cca4efa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a6646c16-4d6a-4377-8b26-917d307af987/storage_v2/_src_/database/PaymentSystem.taM0hQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/PaymentSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/PaymentSystemApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/model/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/AccountRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/ClientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/repository/PaymentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/AccountController.java" afterDir="false" />
@@ -31,13 +17,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/rest/PaymentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/ClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/ClientServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/PaymentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/paymentsystem/service/PaymentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/database/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/initDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database/populateDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/populateDB.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +118,49 @@
       <workItem from="1678116926426" duration="3675000" />
       <workItem from="1678128354194" duration="9007000" />
       <workItem from="1678190459952" duration="19153000" />
-      <workItem from="1678269460464" duration="1065000" />
+      <workItem from="1678269460464" duration="1285000" />
+      <workItem from="1678271447396" duration="599000" />
+      <workItem from="1678374537500" duration="9702000" />
+      <workItem from="1678445945282" duration="10000" />
+      <workItem from="1678718907619" duration="25000" />
+      <workItem from="1678742750159" duration="9000" />
+      <workItem from="1678917085155" duration="256000" />
+      <workItem from="1678957547274" duration="2145000" />
+      <workItem from="1678967798500" duration="602000" />
+      <workItem from="1678978654211" duration="2333000" />
+      <workItem from="1678982907873" duration="38000" />
+      <workItem from="1678982967665" duration="773000" />
+      <workItem from="1678985884844" duration="1564000" />
+      <workItem from="1679041650093" duration="5653000" />
+      <workItem from="1679081886759" duration="3107000" />
+      <workItem from="1679307564378" duration="988000" />
+      <workItem from="1679327452391" duration="1534000" />
+      <workItem from="1679335956216" duration="18000" />
+      <workItem from="1679338066923" duration="1473000" />
+      <workItem from="1679389232439" duration="12000" />
+      <workItem from="1679393395702" duration="1195000" />
+      <workItem from="1679408984837" duration="2992000" />
+      <workItem from="1679432921849" duration="242000" />
+      <workItem from="1680256456459" duration="607000" />
+      <workItem from="1680268286958" duration="11000" />
+      <workItem from="1680710474151" duration="648000" />
+      <workItem from="1680718255233" duration="1836000" />
+      <workItem from="1680721156025" duration="632000" />
+      <workItem from="1680767904336" duration="926000" />
+      <workItem from="1680804410413" duration="18000" />
+      <workItem from="1680855786428" duration="2572000" />
+      <workItem from="1680879596434" duration="749000" />
+      <workItem from="1681134518284" duration="1430000" />
+      <workItem from="1681139559746" duration="288000" />
+      <workItem from="1681153171250" duration="6000" />
+      <workItem from="1681153197284" duration="108000" />
+      <workItem from="1681289668535" duration="430000" />
+      <workItem from="1681305192625" duration="594000" />
+      <workItem from="1681378780031" duration="605000" />
+      <workItem from="1681413800198" duration="923000" />
+      <workItem from="1681937968459" duration="604000" />
+      <workItem from="1681939880673" duration="6000" />
+      <workItem from="1682933092186" duration="283000" />
     </task>
     <servers />
   </component>

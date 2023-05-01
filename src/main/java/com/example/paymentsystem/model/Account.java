@@ -22,7 +22,7 @@ public class Account extends BaseEntity {
     @Column(name = "money_amount")
     private int moneyAmount;
 
-    @ManyToOne(fetch = FetchType.LAZY)//FetchType.LAZY
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "client")
     @JsonBackReference
     private Client client;
@@ -30,6 +30,4 @@ public class Account extends BaseEntity {
     @OneToMany(mappedBy = "account", cascade = CascadeType.ALL)
     @JsonManagedReference
     private List<Payment> payments;
-
-
 }

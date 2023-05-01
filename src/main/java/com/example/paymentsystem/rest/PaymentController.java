@@ -40,7 +40,6 @@ public class PaymentController {
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ResponseEntity<List<Payment>> getAll() {
         List<Payment> payments = paymentService.getAll();
-
         return payments != null && !payments.isEmpty()
                 ? new ResponseEntity<>(payments, HttpStatus.OK)
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);

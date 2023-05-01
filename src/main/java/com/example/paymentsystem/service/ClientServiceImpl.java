@@ -14,7 +14,6 @@ public class ClientServiceImpl implements ClientService {
 
     @Autowired
     private ClientRepository clientRepository;
-    //ClientRepository інтерфейс дозволяє використовувати бізнес-логіку JPA
 
     @Override
     public Client getById(Long id) {

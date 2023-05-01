@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Slf4j
-@Service //@Service - клас є сервісом, для реалізації бізнес-логіки, підтип @Component - анотуємо, що цей клас є біном
+@Service
 public class PaymentServiceImpl implements PaymentService {
 
     @Autowired

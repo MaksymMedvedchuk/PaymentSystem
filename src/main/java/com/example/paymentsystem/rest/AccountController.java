@@ -27,8 +27,8 @@ public class AccountController {
 
     @RequestMapping(value = "", method = RequestMethod.POST)
     public ResponseEntity<Account> saveAccount(@RequestBody Account account) {
-        accountService.save(account);
-        return new ResponseEntity<>(HttpStatus.CREATED);
+        Account result = accountService.save(account);
+        return new ResponseEntity<>(result, HttpStatus.CREATED);
     }
 
     @RequestMapping(value = "{accountId}", method = RequestMethod.DELETE)
@@ -40,7 +40,6 @@ public class AccountController {
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ResponseEntity<List<Account>> getAll() {
         List<Account> accounts = accountService.getAll();
-
         return accounts != null && !accounts.isEmpty()
                 ? new ResponseEntity<>(accounts, HttpStatus.OK)
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);

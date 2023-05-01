@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class AccountServiceImpl implements AccountService {
 
-    @Autowired//Spring сам шукає підходящий бін і автоматично його інжектить
+    @Autowired
     private AccountRepository accountRepository;
 
     @Override
@@ -22,9 +22,9 @@ public class AccountServiceImpl implements AccountService {
     }
 
     @Override
-    public void save(Account account) {
+    public Account save(Account account) {
         log.info("IN AccountServiceImpl save {}", account);
-        accountRepository.save(account);
+        return accountRepository.save(account);
     }
 
     @Override
